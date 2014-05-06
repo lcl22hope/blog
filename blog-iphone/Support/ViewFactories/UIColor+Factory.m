@@ -10,9 +10,6 @@
 
 @implementation UIColor (Factory)
 
-//ColorTypeMainBlue,                  //0,223,252
-//ColorTypeLabelBlue                  //0,140,158
-
 + (UIColor *)colorWithType:(ColorType)type
 {
     switch (type) {
