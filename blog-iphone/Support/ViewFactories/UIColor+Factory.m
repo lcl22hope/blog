@@ -16,10 +16,10 @@
 + (UIColor *)colorWithType:(ColorType)type
 {
     switch (type) {
-        case ColorTypeLabelBlue:
-            return [UIColor colorWithRed:0.0f/255.0f green:140.0f/255.0f blue:158.0f/255.0f alpha:1];
+        case ColorTypeLabelYellow:
+            return [UIColor colorWithRed:253.0f/255.0f green:205.0f/255.0f blue:0.0f/255.0f alpha:1];
         case ColorTypeMainBlue:
-            return [UIColor colorWithRed:0.0f/255.0f green:223.0f/255.0f blue:252.0f/255.0f alpha:1];
+            return [UIColor colorWithRed:0.0f/255.0f green:161.0f/255.0f blue:195.0f/255.0f alpha:1];
         default:
             return [UIColor blackColor];
     }

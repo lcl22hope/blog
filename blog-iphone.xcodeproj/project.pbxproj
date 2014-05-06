@@ -18,13 +18,13 @@
 		A0031F0A1913CC37000A831E /* blog_iphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0031F091913CC37000A831E /* blog_iphoneTests.m */; };
 		A0031F181913CCB8000A831E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0031F151913CCB8000A831E /* InfoPlist.strings */; };
 		A0031F191913CCB8000A831E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0031F171913CCB8000A831E /* main.m */; };
-		A0031F1B1913CCC9000A831E /* blog-iphone-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0031F1A1913CCC9000A831E /* blog-iphone-Info.plist */; };
 		A0031F1F1913CCDD000A831E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0031F1E1913CCDD000A831E /* AppDelegate.m */; };
 		A0031F231913CD05000A831E /* ViewFactoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0031F221913CD05000A831E /* ViewFactoriesViewController.m */; };
 		A0031F271913CD4F000A831E /* ViewFactoriesView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0031F261913CD4F000A831E /* ViewFactoriesView.m */; };
 		A0031F2C1913CE2C000A831E /* UIColor+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = A0031F2B1913CE2C000A831E /* UIColor+Factory.m */; };
 		A0031F2F1913D0E7000A831E /* UIFont+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = A0031F2E1913D0E7000A831E /* UIFont+Factory.m */; };
 		A0031F321913D163000A831E /* UILabel+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = A0031F311913D163000A831E /* UILabel+Factory.m */; };
+		A0C1CCAF191942B600CBE3AA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0C1CCAE191942B600CBE3AA /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +64,7 @@
 		A0031F2E1913D0E7000A831E /* UIFont+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Factory.m"; path = "Support/ViewFactories/UIFont+Factory.m"; sourceTree = "<group>"; };
 		A0031F301913D163000A831E /* UILabel+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+Factory.h"; path = "Support/ViewFactories/UILabel+Factory.h"; sourceTree = "<group>"; };
 		A0031F311913D163000A831E /* UILabel+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Factory.m"; path = "Support/ViewFactories/UILabel+Factory.m"; sourceTree = "<group>"; };
+		A0C1CCAE191942B600CBE3AA /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "Supporting Files/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +141,7 @@
 				A0031F131913CCB8000A831E /* blog-iphone-Prefix.pch */,
 				A0031F141913CCB8000A831E /* en.lproj */,
 				A0031F171913CCB8000A831E /* main.m */,
+				A0C1CCAE191942B600CBE3AA /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -295,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0031EF71913CC37000A831E /* Images.xcassets in Resources */,
-				A0031F1B1913CCC9000A831E /* blog-iphone-Info.plist in Resources */,
+				A0C1CCAF191942B600CBE3AA /* Localizable.strings in Resources */,
 				A0031F181913CCB8000A831E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +520,7 @@
 				A0031F0F1913CC37000A831E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0031F101913CC37000A831E /* Build configuration list for PBXNativeTarget "blog-iphoneTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +529,7 @@
 				A0031F121913CC37000A831E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

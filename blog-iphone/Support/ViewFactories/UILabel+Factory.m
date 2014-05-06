@@ -34,6 +34,7 @@
     label.font = [self fontForType:type];
     label.textColor = [self textColorForType:type];
     label.textAlignment = [self textAlignmentForType:type];
+    label.numberOfLines = [self numberOfLinesForType:type];
     
     //return style label
     return label;
@@ -56,7 +57,7 @@
     switch (type) {
         case LabelTypeTitle:
         case LabelTypeSubtitle:
-            return [UIColor colorWithType:ColorTypeLabelBlue];
+            return [UIColor colorWithType:ColorTypeLabelYellow];
             
         default:
             return nil;
@@ -66,6 +67,17 @@
 + (NSTextAlignment)textAlignmentForType:(LabelType)type
 {
     return NSTextAlignmentCenter;
+}
+
++ (NSInteger)numberOfLinesForType:(LabelType)type
+{
+    switch (type) {
+        case LabelTypeTitle:
+            return 0;
+            
+        default:
+            return 1;
+    }
 }
 
 @end

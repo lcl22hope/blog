@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-//pallet from: http://www.colourlovers.com/palette/482774/dream_magnet
+//pallet from undabot.com
 typedef NS_ENUM(NSInteger, ColorType) {
-    ColorTypeMainBlue,                  //0,223,252
-    ColorTypeLabelBlue                  //0,140,158
+    ColorTypeMainBlue,                  //0, 161, 195
+    ColorTypeLabelYellow                //254, 205, 0
 };
 
 @interface UIColor (Factory)

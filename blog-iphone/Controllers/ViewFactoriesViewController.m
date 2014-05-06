@@ -27,7 +27,7 @@
     [super viewDidLoad];
     
     //set title
-    self.mainView.titleLabel.text = NSLocalizedString(@"❤️ from Undabot", @"");
+    self.mainView.titleLabel.text = NSLocalizedString(@"Post 1 title label text", @"");
 }
 
 #pragma mark -

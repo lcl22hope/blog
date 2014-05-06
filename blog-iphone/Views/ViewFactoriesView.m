@@ -36,7 +36,7 @@
 {
     if (!_titleLabel) {
         _titleLabel = [UILabel labelWithType:LabelTypeTitle];
-        _titleLabel.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height / 2);
+        _titleLabel.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
     }
     
     return _titleLabel;
